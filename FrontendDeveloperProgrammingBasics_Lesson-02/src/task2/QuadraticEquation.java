@@ -1,4 +1,4 @@
-package task2;
+п»їpackage task2;
 
 public class QuadraticEquation {
 
@@ -16,7 +16,7 @@ public class QuadraticEquation {
 		c = -9;
 
 		if (a == 0) {
-			System.out.println("Это не квадратное уравнение!");
+			System.out.println("Р­С‚Рѕ РЅРµ РєРІР°РґСЂР°С‚РЅРѕРµ СѓСЂР°РІРЅРµРЅРёРµ!");
 		}
 
 		else {
@@ -29,15 +29,15 @@ public class QuadraticEquation {
 			if (d > 0) {
 				x1 = (-b + Math.sqrt(d)) / (2 * a);
 				x2 = (-b - Math.sqrt(d)) / (2 * a);
-				System.out.println("Корни уравнения:");
+				System.out.println("РљРѕСЂРЅРё СѓСЂР°РІРЅРµРЅРёСЏ:");
 				System.out.println("x1=" + x1);
 				System.out.println("x2=" + x2);
 			} else if (d == 0) {
 				x1 = -b / (2 * a);
-				System.out.println("Корни уравнения:");
+				System.out.println("РљРѕСЂРЅРё СѓСЂР°РІРЅРµРЅРёСЏ:");
 				System.out.println("x1=x2=" + x1);
 			} else {
-				System.out.println("Дискриминант меньше нуля, корней нет!");
+				System.out.println("Р”РёСЃРєСЂРёРјРёРЅР°РЅС‚ РјРµРЅСЊС€Рµ РЅСѓР»СЏ, РєРѕСЂРЅРµР№ РЅРµС‚!");
 			}
 		}
 	}
